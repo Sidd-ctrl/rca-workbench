@@ -1,0 +1,9 @@
+# Code explanation run-of-show (target 7 minutes)
+
+1. **00:00–00:45 — Architecture.** React + Redux Toolkit frontend, FastAPI backend, LangGraph orchestration, Groq via `langchain-groq`, SQLAlchemy persistence. Demonstrate as a locally run app; no deployment dependency.
+2. **00:45–01:45 — Reference interaction.** Show the Copilot-first two-pane `src/App.jsx`: pasted incident/EML/TXT or attachment enters the assistant; editable intake fields update from extracted JSON; the assistant acknowledges the extraction. Explain this adapts the Complaint demo’s chat-driven form-fill interaction to RCA.
+3. **01:45–02:40 — Frontend state / upload.** Walk through Redux state in `src/store.js`, the controlled editable form, sample training data, PDF/DOCX/TXT/EML attach behavior, assistant messages, and save / saved-records interface. Vite proxies `/api` to port 8000.
+4. **02:40–04:10 — API and LangGraph.** Show `/api/extract`, `/api/extract-file`, `/api/rca` and `/api/investigations` in `backend/main.py`. Follow the `extract → analyze` graph. Explain Groq configuration, JSON prompting/parsing, and conservative local fallback when no key is configured.
+5. **04:10–05:10 — Evidence and safeguards.** Show five-whys, evidence/missing-evidence lists, unconfirmed root cause, user edits and QA caveat. AI does not establish a cause by assertion, recommend unsupported invalidation, or disposition a batch.
+6. **05:10–06:10 — CAPA and persistence.** Explain editable correction/corrective/preventive/effectiveness actions and SQLite default / PostgreSQL URL. Point to SQLAlchemy save/list endpoints and saved-investigation UI.
+7. **06:10–07:00 — Limitations.** This prototype lacks validated immutable audit trails, user roles/e-signatures, production security, retention, system validation and full regulated deployment controls. Do not claim GxP validation.

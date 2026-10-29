@@ -1,0 +1,11 @@
+# Product demonstration run-of-show (target 6 minutes)
+
+This app mirrors the reference video’s Copilot-first interaction: source text or document goes into the assistant; the assistant extracts and fills a structured form for review. Use only the synthetic sample data. Record privately for assignment submission.
+
+1. **00:00–00:40 — Set the scene.** Introduce the synthetic API manufacturing OOS deviation. Point out the left investigation form and persistent AIVOA Copilot on the right. Explain this adapts the complaint demo’s interaction pattern to RCA.
+2. **00:40–01:20 — Start from source, not manual entry.** In Copilot click **Try a sample OOS incident** (or paste the example narrative in the chat and press Enter). Alternatively attach the sample `.txt`; explain PDF/DOCX upload requires the backend. Show the user’s source message and assistant acknowledgement.
+3. **01:20–02:10 — AI extraction.** Show product, batch, department, event date, severity and summary populate the form. Review the Copilot's captured summary. Explicitly state fields are suggestions; the source should be checked and the form can be edited. Show containment and impact are bounded by the source, not invented.
+4. **02:10–02:50 — Review context.** Review the source-derived deviation details and immediate containment. Note that unknown distribution / patient impact must be investigated, not assumed. Explain batch disposition is never automated.
+5. **02:50–04:15 — RCA.** Click **Generate five whys & CAPA** in the Copilot. Review the caution banner, unconfirmed/undetermined cause, facts vs. evidence to collect and five whys. Highlight chromatograms/audit trail, preparations, approved method, and manufacturing/trend evidence. Say investigation follows the current approved OOS procedure; no testing into compliance.
+6. **04:15–05:20 — CAPA.** Review editable correction, corrective, preventive and effectiveness suggestions. Change an owner or action and discuss action-to-evidence linkage and measurable effectiveness criteria.
+7. **05:20–06:00 — Save.** Commit to the local QMS ledger and open **Saved investigations**. Explain the prototype is a draft aid, not a validated quality record system; qualified QA review remains required.

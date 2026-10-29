@@ -1,0 +1,16 @@
+DEVIATION / OOS INVESTIGATION INTAKE — TRAINING EXAMPLE
+
+Event ID: DEV-2026-0142
+Product: Metformin Hydrochloride API
+Batch: AX-24091
+Department: Quality Control
+Event date: 28 Oct 2026
+Reported: 29 Oct 2026
+
+During routine HPLC testing of Metformin Hydrochloride API batch AX-24091, the initial result for an identified impurity exceeded the registered acceptance criterion. The event was reported to Quality Assurance. The batch was placed on QA hold and release was blocked pending investigation. No distribution status or patient impact assessment is recorded in this intake narrative.
+
+Investigation stage: Intake. No assignable cause has been established.
+
+Evidence and records requested for investigation: original chromatograms and sequence; instrument audit trail including integration changes; sample and reference-standard preparation records and calculations; analyst interview and contemporaneous notebook entries; instrument qualification and system suitability; applicable approved method and specification; laboratory Phase I OOS checklist and scientifically justified hypothesis testing; manufacturing batch record and process parameters; related-batch and impurity trend review; documented quality-unit assessment of product impact and disposition.
+
+This is synthetic training data. It is not a real batch or GMP record. Follow the current approved site procedures and applicable regulations.
